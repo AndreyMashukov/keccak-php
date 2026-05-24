@@ -3,7 +3,8 @@
     "description": "Keccak-256 and SHA-3 family permutations in pure PHP.",
     "type": "library",
     "license": "MIT",
-    "keywords": ["keccak", "sha3", "sha-3", "keccak-256", "ethereum", "hash"],
+    "homepage": "https://github.com/AndreyMashukov/keccak-php",
+    "keywords": ["keccak", "keccak-256", "keccak256", "sha3", "sha-3", "shake", "shake128", "shake256", "ethereum", "evm", "hash", "hashing", "cryptography", "blockchain", "pure-php"],
     "authors": [
         {
             "name": "Andrei Mashukov",
@@ -11,6 +12,10 @@
             "homepage": "https://github.com/AndreyMashukov"
         }
     ],
+    "support": {
+        "issues": "https://github.com/AndreyMashukov/keccak-php/issues",
+        "source": "https://github.com/AndreyMashukov/keccak-php"
+    },
     "require": {
         "php": ">=8.3",
         "ext-mbstring": "*"
