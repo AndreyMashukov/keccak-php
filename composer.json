@@ -1,0 +1,49 @@
+{
+    "name": "amashukov/keccak-php",
+    "description": "Keccak-256 and SHA-3 family permutations in pure PHP.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["keccak", "sha3", "sha-3", "keccak-256", "ethereum", "hash"],
+    "authors": [
+        {
+            "name": "Andrei Mashukov",
+            "email": "a.mashukoff@gmail.com",
+            "homepage": "https://github.com/AndreyMashukov"
+        },
+        {
+            "name": "Boris Momčilović",
+            "homepage": "https://github.com/kornrunner/php-keccak",
+            "role": "Original implementation (kornrunner/keccak)"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.50",
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^11.0",
+        "rector/rector": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amashukov\\Keccak\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amashukov\\Keccak\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit",
+        "stan": "phpstan analyse",
+        "cs": "php-cs-fixer fix --dry-run --diff",
+        "cs-fix": "php-cs-fixer fix",
+        "rector": "rector process --dry-run"
+    }
+}
