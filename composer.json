@@ -9,11 +9,6 @@
             "name": "Andrei Mashukov",
             "email": "a.mashukoff@gmail.com",
             "homepage": "https://github.com/AndreyMashukov"
-        },
-        {
-            "name": "Boris Momčilović",
-            "homepage": "https://github.com/kornrunner/php-keccak",
-            "role": "Original implementation (kornrunner/keccak)"
         }
     ],
     "require": {
@@ -21,6 +16,7 @@
         "ext-mbstring": "*"
     },
     "require-dev": {
+        "amashukov/rector-php-rules": "^0.1.0",
         "friendsofphp/php-cs-fixer": "^3.50",
         "phpstan/phpstan": "^2.0",
         "phpunit/phpunit": "^11.0",

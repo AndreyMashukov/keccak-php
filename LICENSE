@@ -1,7 +1,6 @@
 MIT License
 
-Copyright (c) 2018 Boris Momčilović (original implementation, https://github.com/kornrunner/php-keccak)
-Copyright (c) 2026 Andrei Mashukov (port to amashukov/keccak-php)
+Copyright (c) 2026 Andrei Mashukov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
